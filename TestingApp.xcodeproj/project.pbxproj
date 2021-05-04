@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5214F3B26278DCB0005AC75 /* testerrr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5214F3A26278DCB0005AC75 /* testerrr.swift */; };
+		D52D81852628242000D0F91E /* AIkAurNayaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D81842628242000D0F91E /* AIkAurNayaView.swift */; };
+		D52D81B9262872C400D0F91E /* firseNaya.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D81B8262872C400D0F91E /* firseNaya.swift */; };
+		D52D82012628E4C400D0F91E /* lastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D82002628E4C400D0F91E /* lastView.swift */; };
 		D5D0C2B72625B41500C6B750 /* TestingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0C2B62625B41500C6B750 /* TestingAppApp.swift */; };
 		D5D0C2B92625B41500C6B750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0C2B82625B41500C6B750 /* ContentView.swift */; };
 		D5D0C2BB2625B41800C6B750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C2BA2625B41800C6B750 /* Assets.xcassets */; };
 		D5D0C2BE2625B41800C6B750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C2BD2625B41800C6B750 /* Preview Assets.xcassets */; };
+		D5D0C2C72625B59A00C6B750 /* cryptoVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C2C62625B59A00C6B750 /* cryptoVideo.mp4 */; };
+		D5D0C40F2627545300C6B750 /* NayaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0C40E2627545300C6B750 /* NayaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5214F3A26278DCB0005AC75 /* testerrr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testerrr.swift; sourceTree = "<group>"; };
+		D52D81842628242000D0F91E /* AIkAurNayaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIkAurNayaView.swift; sourceTree = "<group>"; };
+		D52D81B8262872C400D0F91E /* firseNaya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firseNaya.swift; sourceTree = "<group>"; };
+		D52D82002628E4C400D0F91E /* lastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastView.swift; sourceTree = "<group>"; };
 		D5D0C2B32625B41500C6B750 /* TestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D0C2B62625B41500C6B750 /* TestingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppApp.swift; sourceTree = "<group>"; };
 		D5D0C2B82625B41500C6B750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5D0C2BA2625B41800C6B750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5D0C2BD2625B41800C6B750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5D0C2BF2625B41800C6B750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D0C2C62625B59A00C6B750 /* cryptoVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cryptoVideo.mp4; sourceTree = "<group>"; };
+		D5D0C40E2627545300C6B750 /* NayaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NayaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +64,16 @@
 		D5D0C2B52625B41500C6B750 /* TestingApp */ = {
 			isa = PBXGroup;
 			children = (
+				D5D0C2C62625B59A00C6B750 /* cryptoVideo.mp4 */,
 				D5D0C2B62625B41500C6B750 /* TestingAppApp.swift */,
 				D5D0C2B82625B41500C6B750 /* ContentView.swift */,
+				D5D0C40E2627545300C6B750 /* NayaView.swift */,
 				D5D0C2BA2625B41800C6B750 /* Assets.xcassets */,
 				D5D0C2BF2625B41800C6B750 /* Info.plist */,
+				D5214F3A26278DCB0005AC75 /* testerrr.swift */,
+				D52D81842628242000D0F91E /* AIkAurNayaView.swift */,
+				D52D81B8262872C400D0F91E /* firseNaya.swift */,
+				D52D82002628E4C400D0F91E /* lastView.swift */,
 				D5D0C2BC2625B41800C6B750 /* Preview Content */,
 			);
 			path = TestingApp;
@@ -128,6 +146,7 @@
 			files = (
 				D5D0C2BE2625B41800C6B750 /* Preview Assets.xcassets in Resources */,
 				D5D0C2BB2625B41800C6B750 /* Assets.xcassets in Resources */,
+				D5D0C2C72625B59A00C6B750 /* cryptoVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5214F3B26278DCB0005AC75 /* testerrr.swift in Sources */,
+				D52D81852628242000D0F91E /* AIkAurNayaView.swift in Sources */,
+				D52D81B9262872C400D0F91E /* firseNaya.swift in Sources */,
+				D52D82012628E4C400D0F91E /* lastView.swift in Sources */,
+				D5D0C40F2627545300C6B750 /* NayaView.swift in Sources */,
 				D5D0C2B92625B41500C6B750 /* ContentView.swift in Sources */,
 				D5D0C2B72625B41500C6B750 /* TestingAppApp.swift in Sources */,
 			);
